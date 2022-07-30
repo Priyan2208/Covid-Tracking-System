@@ -1,0 +1,37 @@
+#homeFlex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.homes {
+  position: relative;
+  top: 70px;
+}
+
+@media (min-width: 1230px) {
+
+  #covid_data {
+    flex: 1;
+    width: 70vw;
+    margin-bottom: 10px;
+  }
+
+  #homeFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+  }
+}
+
+@media(min-width: 800px){
+  .homes {
+    position: relative;
+    top: 100px;
+  }
+}
