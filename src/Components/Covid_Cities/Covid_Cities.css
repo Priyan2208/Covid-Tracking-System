@@ -1,4 +1,4 @@
-.covidCities{
+.covidCities {
   margin: 60px auto;
 }
 
@@ -8,7 +8,7 @@
   margin-bottom: 15px;
 }
 
-#cityData{
+#cityData {
   min-height: 75vh;
   margin: 30px auto;
   display: flex;
@@ -17,9 +17,10 @@
   justify-content: space-around;
 }
 
-form{
+form {
   width: 95%;
   margin: auto;
+  color: rgb(255, 150, 14);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -46,6 +47,7 @@ select:hover,
 select:focus {
   background: rgb(95, 78, 252);
   color: rgb(255, 255, 255);
+  font-weight: 600;
 }
 
 label {
@@ -58,7 +60,7 @@ option:nth-child(2) {
 }
 
 #searchBtn {
-  background: rgba(82, 80, 175, 0.788);
+  background: rgb(168, 166, 254);
 
   font-size: 18px;
   padding: 10px 15px;
@@ -118,7 +120,6 @@ option:nth-child(2) {
 }
 
 @media (max-width: 500px) {
-
   #searchBtn {
     font-size: 11px;
     padding: 5px 10px;

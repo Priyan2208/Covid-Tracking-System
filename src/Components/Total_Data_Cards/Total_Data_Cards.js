@@ -14,7 +14,7 @@ function TotalDataCards(data) {
   return (
     <React.Fragment>
       <div className="cards">
-        <h2 id="card_title">Total Cases In India</h2>
+        <h2 id="card_title">Total Cases</h2>
 
         {total && (
           <React.Fragment>
@@ -26,7 +26,7 @@ function TotalDataCards(data) {
                 deltaData={total.deltaconfirmed}
               />
 
-              <Card id="active_card" title="Active" data={total.active} />
+              <Card id="active_card" title="Infected" data={total.active} />
 
               <Card
                 id="recovered_card"
@@ -37,7 +37,7 @@ function TotalDataCards(data) {
 
               <Card
                 id="deaths_card"
-                title="Deaths"
+                title="Total Death"
                 data={total.deaths}
                 deltaData={total.deltadeaths}
               />

@@ -6,8 +6,9 @@ export default function Footer() {
     <React.Fragment>
       <hr />
       <footer>
-        <h3>COVID-19 INDIA</h3>
-        <p id="foot">We stand with everyone fighting on the frontlines</p>
+        <h3>COVID-19 Tracker India </h3>
+        <h4>Stay home , Stay Safe</h4>
+        <h4>Stay Aleart control the Virus Save Lives</h4>
       </footer>
     </React.Fragment>
   );

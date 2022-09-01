@@ -1,0 +1,54 @@
+#project-title {
+  margin: 10px;
+  color: #d2ff09;
+  font-weight: 800;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 3;
+  position: fixed;
+  background: #5a7a9a;
+}
+
+img {
+  width: 40px;
+  background-color: rgb(255, 223, 223);
+  height: auto;
+  border: 4px solid #2c1c4a;
+  border-radius: 20px;
+}
+
+#safe-img {
+  width: 73px;
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+}
+
+#accounts-icon {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+a {
+  margin-right: 10px;
+}
+
+#heading {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 920px) {
+  header {
+    width: 100%;
+    font-size: 10px;
+  }
+}
