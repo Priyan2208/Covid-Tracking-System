@@ -1,4 +1,4 @@
-# Project covid tracker App
+# Project Covid Tracker India App
 
 Hii...
 This project is made by Priyan.

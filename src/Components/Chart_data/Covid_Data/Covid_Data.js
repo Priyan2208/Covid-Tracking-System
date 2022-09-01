@@ -1,5 +1,5 @@
 import React from "react";
-import { stateTable } from "../indexing";
+import { stateTable } from "../../indexing";
 import "./Covid_Data.css";
 const CovidData = (data) => {
   return (

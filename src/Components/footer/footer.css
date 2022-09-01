@@ -1,15 +1,15 @@
 footer {
   padding: 30px;
-  color: rgb(61, 255, 22);
+  color: rgb(200, 181, 255);
 }
 
 hr {
   margin-top: 90px;
-  background: rgba(255, 9, 9, 0.836);
+  background: rgba(255, 255, 255, 0.836);
   border-width: 0;
   height: 2px;
 }
 h4 {
-  color: aqua;
+  color: rgb(0, 0, 0);
   margin: 5px;
 }

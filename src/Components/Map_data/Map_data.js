@@ -148,7 +148,7 @@ export default function MapData() {
     <React.Fragment>
       {indiaData ? (
         <div className="map">
-          <h2 id="map_title">Map Representation of COVID Cases in India</h2>
+          <h2 id="map_title">Covid active area Representation on Map</h2>
           <div className="mapContainer">
             {/* Mapbox Container */}
             <div className="mapBox" ref={mapboxElRef} />

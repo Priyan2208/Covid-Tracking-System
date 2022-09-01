@@ -10,7 +10,7 @@ export default function Header() {
       <header>
         <img id="safe-img" src={Safe} alt="Stay Home Stay Safe" />
         <div id="heading">
-          <h1 id="project-title">COVID-19 India V2.0</h1>
+          <h1 id="project-title">COVID TRACKER INDIA</h1>
         </div>
         <div id="accounts-icon">
           <a href="https://github.com/Priyan2208" target="blank">

@@ -1,5 +1,5 @@
 import Home from "./home/home";
-import CovidData from "./Covid_Data/Covid_Data";
+import CovidData from "./Chart_data/Covid_Data/Covid_Data";
 import Footer from "./footer/footer";
 import Header from "./header/header";
 import fetchData, { fetchHistory } from "./fetchData";

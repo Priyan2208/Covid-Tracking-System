@@ -14,7 +14,7 @@ function TotalDataCards(data) {
   return (
     <React.Fragment>
       <div className="cards">
-        <h2 id="card_title">Total Cases</h2>
+        <h2 id="card_title">Total Case Data</h2>
 
         {total && (
           <React.Fragment>
